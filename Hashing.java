@@ -31,7 +31,7 @@ public class Hashing{
         System.out.println(set);
 
         //Iteration - HashSet doesnot have an order
-        Iterator it = set.iterator();
+        Iterator<Integer> it = set.iterator();
         while(it.hasNext()){
             System.out.print(it.next() + " ");
         }
